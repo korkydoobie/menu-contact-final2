@@ -466,61 +466,12 @@ hr {
     }
 }
 @media (max-width: 600px) {
-    /* ✅ Center Logo & Adjust Size */
-    #logo img {
-        width: 12%; /* Keep it readable */
+    #logo img{
+        width: 10%;
     }
+
     #logo #logo-text {
-        font-size: 16px; /* Prevent too much shrink */
-    }
-
-    /* ✅ Make Navigation Fully Responsive */
-    nav {
-        width: 100%;
-        right: -100%; /* Hide by default */
-    }
-    nav.active {
-        right: 0; /* Slide in when active */
-    }
-    nav ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    nav ul li {
-        margin: 10px 0;
-        float: none;
-    }
-
-    /* ✅ Stack Content (Images & Text) */
-    .content {
-        flex-direction: column;
-    }
-    .content img {
-        width: 100%;
-        height: auto;
-    }
-    .content p {
-        width: 100%;
-        font-size: 18px;
-    }
-
-    /* ✅ Make Food Items Stack in Single Column */
-    .food-items {
-        grid-template-columns: 1fr; /* One column on mobile */
-        gap: 10px;
-    }
-
-    /* ✅ Center Footer & Forms */
-    .f1 {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .left form input,
-    .left form textarea {
-        width: 100%;
-        max-width: 300px;
+        font-size: 16px;
     }
 }
 
